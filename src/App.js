@@ -1,5 +1,6 @@
 import "./App.css";
 import logo from "./logo.png";
+import Footer from "./Footer";
 
 export default function App() {
 	return (
@@ -7,6 +8,7 @@ export default function App() {
 			<header className="App-header">
 				<img src={logo} className="App-logo img-fluid" alt="logo" />
 			</header>
+			<Footer />
 		</div>
 	);
 }
