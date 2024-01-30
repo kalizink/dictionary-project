@@ -4,7 +4,6 @@ import Footer from "./Footer";
 import Dictionary from "./Dictionary.js";
 
 export default function App() {
-
 	return (
 		<div className="App">
 			<div className="container">
@@ -12,7 +11,7 @@ export default function App() {
 					<img src={logo} className="App-logo img-fluid" alt="logo" />
 				</header>
 				<main>
-					<Dictionary />
+					<Dictionary defaultKeyword="sunset" />
 				</main>
 				<Footer />
 			</div>
